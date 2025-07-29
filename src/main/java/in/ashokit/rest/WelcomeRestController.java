@@ -19,10 +19,11 @@ public class WelcomeRestController {
 	public String welcomeMsg() {
 		logger.info("***** welcomeMsg() execution start *****");
 		String msg = "Welcome to Ashok IT - Software Training Institute (HYD) ..!!";
-		logger.info("***** welcomeMsg() execution end *****");
+		logger.info("***** welcomeMsg() execution end was happen *****");
 		return msg;
 	}
 
+<<<<<<< HEAD
 	@GetMapping("/greet")
 	public string greetMsg() {
 		logger.info("***** greetMsg() execution start *******");
@@ -31,4 +32,6 @@ public class WelcomeRestController {
 		logger.info("***** greetMsg() execution end ******");
 		return msg;
 	}
+=======
+>>>>>>> d82d71ba8ea8c03adfc06448f57877e65ea8067c
 }
