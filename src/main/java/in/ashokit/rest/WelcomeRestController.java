@@ -19,7 +19,15 @@ public class WelcomeRestController {
 	public String welcomeMsg() {
 		logger.info("***** welcomeMsg() execution start *****");
 		String msg = "Welcome to Ashok IT - Software Training Institute (HYD) ..!!";
-		logger.info("***** welcomeMsg() execution end *****");
+		logger.info("***** welcomeMsg() execution end was happen *****");
 		return msg;
 	}
+
+	@GetMapping("/greet")
+	public string greetMsg() {
+		logger.info("***** greetMsg() execution start *******");
+		String msg="Good Morning, Welcome to Ashok IT";
+		System.out.println("Testing git collaboration");
+		logger.info("***** greetMsg() execution end ******");
+		return msg;
 }
