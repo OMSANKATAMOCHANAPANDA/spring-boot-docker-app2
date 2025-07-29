@@ -19,7 +19,7 @@ public class WelcomeRestController {
 	public String welcomeMsg() {
 		logger.info("***** welcomeMsg() execution start *****");
 		String msg = "Welcome to Ashok IT - Software Training Institute (HYD) ..!!";
-		logger.info("***** welcomeMsg() execution end was happen *****");
+		logger.info("***** welcomeMsg() execution end was happen now *****");
 		return msg;
 	}
 
