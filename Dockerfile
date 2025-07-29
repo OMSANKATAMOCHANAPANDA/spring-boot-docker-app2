@@ -2,7 +2,7 @@ FROM openjdk:11
 
 COPY target/spring-boot-docker-app.jar  /user/app/
 
-WORKDIR /usr/app/
+WORKDIR /user/app/
 
 EXPOSE 8080
 
