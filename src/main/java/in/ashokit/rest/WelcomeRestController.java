@@ -32,7 +32,11 @@ public class WelcomeRestController {
 		System.out.println("Testing git collaboration");
 		logger.info("***** greetMsg() execution end happen currently ******");
 		int j=50;
+		int k=100;
+		int sum = j + k;
+		System.out.println("value of k is :"+k);
 		System.out.println("value of j is :"+j);
+		System.out.println("Sum of j and k is: " + sum);
 		return msg;
 	}
 }
