@@ -25,6 +25,7 @@ public class WelcomeRestController {
 		logger.info("############################################");
 		String s = "Hello, this is a test message for checking git collaboration";
 		System.out.println(s);
+		String booleanValue = "true";
 		return msg;
 	}
 	@GetMapping("/greet")
