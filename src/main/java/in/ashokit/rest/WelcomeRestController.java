@@ -25,10 +25,6 @@ public class WelcomeRestController {
 		System.out.println(s);
 		return msg;
 	}
-<<<<<<< HEAD
-
-=======
->>>>>>> 3b2d37cfe0f24c44546b414e6f2c20c73193cf5a
 	@GetMapping("/greet")
 	public string greetMsg() {
 		logger.info("***** greetMsg() execution start *******");
