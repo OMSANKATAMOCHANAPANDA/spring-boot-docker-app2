@@ -22,10 +22,12 @@ public class WelcomeRestController {
 		logger.info("***** welcomeMsg() execution end was happen now *****");
 		logger.info("***** welcomeMsg() execution end was happen *****");
 		logger.info("*******************************************");
+    logger.info("+++++++++++++++++++++++++++++++++++++++++++");
 		logger.info("############################################");
 		String s = "Hello, this is a test message for checking git collaboration";
 		System.out.println(s);
 		logger.info("////////////////////////////////////////////");
+		String booleanValue = "true";
 		return msg;
 	}
 	@GetMapping("/greet")
