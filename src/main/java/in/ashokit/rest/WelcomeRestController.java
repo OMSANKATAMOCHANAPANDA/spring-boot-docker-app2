@@ -1,4 +1,4 @@
-package in.ashokit.rest;
+p[]package in.ashokit.rest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,12 +19,16 @@ public class WelcomeRestController {
 	public String welcomeMsg() {
 		logger.info("***** welcomeMsg() execution start *****");
 		String msg = "Welcome to Ashok IT - Software Training Institute (HYD) ..!!";
+		logger.info("***** welcomeMsg() execution end was happen now *****");
 		logger.info("***** welcomeMsg() execution end was happen *****");
 		String s = "Hello, this is a test message";
 		System.out.println(s);
 		return msg;
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3b2d37cfe0f24c44546b414e6f2c20c73193cf5a
 	@GetMapping("/greet")
 	public string greetMsg() {
 		logger.info("***** greetMsg() execution start *******");
