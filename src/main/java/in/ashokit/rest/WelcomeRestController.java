@@ -31,8 +31,8 @@ public class WelcomeRestController {
 		String msg="Good Morning, Welcome to Ashok IT";
 		System.out.println("Testing git collaboration");
 		logger.info("***** greetMsg() execution end happen currently ******");
-		int i = 10; // Example variable to demonstrate code functionality
-		System.out.println("Value of i: " + i);	
+		int j=50;
+		System.out.println("value of j is :"+j);
 		return msg;
 	}
 }
