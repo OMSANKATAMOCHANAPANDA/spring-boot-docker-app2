@@ -25,15 +25,14 @@ public class WelcomeRestController {
 		return msg;
 	}
 
-<<<<<<< HEAD
 	@GetMapping("/greet")
 	public string greetMsg() {
 		logger.info("***** greetMsg() execution start *******");
 		String msg="Good Morning, Welcome to Ashok IT";
 		System.out.println("Testing git collaboration");
 		logger.info("***** greetMsg() execution end happen currently ******");
+		int i = 10; // Example variable to demonstrate code functionality
+		System.out.println("Value of i: " + i);	
 		return msg;
 	}
-=======
->>>>>>> d82d71ba8ea8c03adfc06448f57877e65ea8067c
 }
