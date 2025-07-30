@@ -21,6 +21,7 @@ public class WelcomeRestController {
 		String msg = "Welcome to Ashok IT - Software Training Institute (HYD) ..!!";
 		logger.info("***** welcomeMsg() execution end was happen now *****");
 		logger.info("***** welcomeMsg() execution end was happen *****");
+		logger.info("*******************************************");
 		String s = "Hello, this is a test message for checking git collaboration";
 		System.out.println(s);
 		return msg;
