@@ -22,9 +22,16 @@ public class WelcomeRestController {
 		logger.info("***** welcomeMsg() execution end was happen now *****");
 		logger.info("***** welcomeMsg() execution end was happen *****");
 		logger.info("*******************************************");
+<<<<<<< HEAD
 		logger.info("+++++++++++++++++++++++++++++++++++++++++++");
+=======
+                logger.info("+++++++++++++++++++++++++++++++++++++++++++");
+		logger.info("############################################");
+>>>>>>> 8d05c455aa6fe5e5a84f7e09ab297490b121e596
 		String s = "Hello, this is a test message for checking git collaboration";
 		System.out.println(s);
+		logger.info("////////////////////////////////////////////");
+		String booleanValue = "true";
 		return msg;
 	}
 	@GetMapping("/greet")
@@ -42,5 +49,13 @@ public class WelcomeRestController {
 		return msg;
 	}
 
+<<<<<<< HEAD
+=======
+	//Task - 320
+	public void m1(){
+		int i=10;
+		int j=50;
+		//Logic 
+>>>>>>> 8d05c455aa6fe5e5a84f7e09ab297490b121e596
 	
 }
