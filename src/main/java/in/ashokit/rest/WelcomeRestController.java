@@ -70,4 +70,17 @@ public class WelcomeRestController {
 		System.out.println("Testing git collaboration in m1 method");
 		logger.info("////////////////////////////////////////////");
 	}
+
+	//Task - 322
+	public void m3() {
+		logger.info("***** m3() execution start *****");
+		String msg = "This is a test method for Task 322";
+		logger.info("***** m3() execution end was happen now *****");
+		System.out.println(msg);
+		logger.info("*******************************************");
+		logger.info("+++++++++++++++++++++++++++++++++++++++++++");
+		logger.info("############################################");
+		System.out.println("Testing git collaboration in m3 method");
+		logger.info("////////////////////////////////////////////");
+	}
 }
