@@ -30,6 +30,15 @@ public class WelcomeRestController {
 		String booleanValue = "true";
 		return msg;
 	}
+
+	//Task - 321
+
+	public void m2() {
+		logger.info("***** m2() execution start *****");
+		String msg = "This is a test method for git collaboration";
+		logger.info("***** m2() execution end was happen now *****");
+		System.out.println(msg);
+	}
 	
 	@GetMapping("/greet")
 	public string greetMsg() {
