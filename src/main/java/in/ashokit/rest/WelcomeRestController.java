@@ -35,6 +35,7 @@ public class WelcomeRestController {
 
 	public void m2() {
 		logger.info("***** m2() execution start *****");
+		String name="Om Sankata Mochana Panda";
 		String msg = "This is a test method for git collaboration";
 		logger.info("***** m2() execution end was happen now *****");
 		System.out.println(msg);
