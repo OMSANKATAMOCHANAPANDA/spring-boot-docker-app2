@@ -22,11 +22,7 @@ public class WelcomeRestController {
 		logger.info("***** welcomeMsg() execution end was happen now *****");
 		logger.info("***** welcomeMsg() execution end was happen *****");
 		logger.info("*******************************************");
-<<<<<<< HEAD
 		logger.info("+++++++++++++++++++++++++++++++++++++++++++");
-=======
-		logger.info("############################################");
->>>>>>> dfa40256ad92c87c8c6315f0bf067981a6127596
 		String s = "Hello, this is a test message for checking git collaboration";
 		System.out.println(s);
 		return msg;
@@ -45,4 +41,6 @@ public class WelcomeRestController {
 		System.out.println("Sum of j and k is: " + sum);
 		return msg;
 	}
+
+	
 }
