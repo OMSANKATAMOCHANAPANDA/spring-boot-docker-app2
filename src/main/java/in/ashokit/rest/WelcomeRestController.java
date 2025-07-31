@@ -54,4 +54,18 @@ public class WelcomeRestController {
 		System.out.println("Sum of j and k is: " + sum);
 		return msg;
 	}
+
+	//Task - 320
+
+	public void m1(){
+		logger.info("***** m1() execution start *****");
+		String msg = "This is a test method for Task 320";
+		logger.info("***** m1() execution end *****");
+		System.out.println(msg);
+		logger.info("*******************************************");
+		logger.info("+++++++++++++++++++++++++++++++++++++++++++");
+		logger.info("############################################");
+		System.out.println("Testing git collaboration in m1 method");
+		logger.info("////////////////////////////////////////////");
+	}
 }
